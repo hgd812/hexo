@@ -1,5 +1,6 @@
 ---
 title:  让我们用 GitHub Vercel 搭建一个 Hexo 站点
+cover: https://pic1.zhimg.com/v2-41e1b825c51055f39c22b95777bc620b_1440w.jpg?source=172ae18b
 ---
 
 > https://github.com
