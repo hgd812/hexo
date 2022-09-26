@@ -1,4 +1,4 @@
-# Main menu navigation (導航目錄)
+# Main menu navigation (导航目录)
 # see https://butterfly.js.org/posts/4aa8abbe/#導航菜單
 # --------------------------------------
 
@@ -26,14 +26,14 @@ highlight_height_limit: false # unit: px
 code_word_wrap: false
 
 # copy settings
-# copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
+# copyright: Add the copyright information after copied content (复制的内容后面添加版权信息)
 copy:
   enable: true
   copyright:
     enable: false
     limit_count: 50
 
-# social settings (社交圖標設置)
+# social settings (社交图标设置)
 # formal:
 #   icon: link || the description
 social:
@@ -74,13 +74,13 @@ katex:
   per_page: false
   hide_scrollbar: true
 
-# Image (圖片設置)
+# Image (图片设置)
 # --------------------------------------
 
-# Favicon（網站圖標）
+# Favicon（网站图标）
 favicon: /img/favicon.png
 
-# Avatar (頭像)
+# Avatar (头像)
 avatar:
   img: https://avatars.githubusercontent.com/u/44740070?s=400&u=31721518e7504388b309c718221a6dc5050aa96f&v=4
   effect: false
