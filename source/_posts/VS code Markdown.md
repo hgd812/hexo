@@ -15,10 +15,12 @@ cover: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aa4bb4c2-e411-4a13-bb32-deb6e6bc
 
 打开设置，搜索Auto Save
 
-选择 `onWindowChange` 
+选择 `onWindowChange`
 
 1. 当编辑器窗口失去焦点时，自动保存
 
-#### 安装插件
+### 安装插件
+
+#### `office view` 实现Markdown实时渲染
 
 打开VS code扩展，搜索 `office view` 点击 `安装`
