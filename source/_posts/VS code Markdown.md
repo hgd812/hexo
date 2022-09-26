@@ -12,3 +12,5 @@ cover: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aa4bb4c2-e411-4a13-bb32-deb6e6bc
 ### 安装插件
 
 打开VS code扩展，搜索 `office view` 点击 `安装`
+
+即可
