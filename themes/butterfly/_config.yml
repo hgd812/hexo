@@ -712,7 +712,7 @@ busuanzi:
 
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
-runtimeshow:
+runtimeshow: # 运行时间
   enable: truetrue
   publish_date: 25/9/2022 00:00:00 
 
