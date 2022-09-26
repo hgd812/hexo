@@ -667,14 +667,14 @@ aside:
   card_author:
     enable: true
     description:
-    button:
+    button: # 链接其他自己的博客
       enable: true
       icon: fab fa-github
       text: Follow Me
       link: https://github.com/hgd812
-  card_announcement:
+  card_announcement: # 公告内容修改content
     enable: true
-    content: This is my Blog
+    content: 这是我的博客
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
