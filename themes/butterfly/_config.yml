@@ -7,8 +7,7 @@ menu:
   时间轴: /archives/ || fas fa-archive
   目录fa-fw fas fa-compass:
     标签: /tags/ || fas fa-tags
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
+    分类: /categories/ || fas fa-folder-open
   清单fa fa-heartbeat:
     音乐: /music/ || fas fa-music
     照片: /Gallery/ || fas fa-images
