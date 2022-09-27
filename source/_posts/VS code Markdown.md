@@ -7,7 +7,7 @@ cover: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aa4bb4c2-e411-4a13-bb32-deb6e6bc
 ---
 ## 下载
 
-    打开[下载Visual Studio Code](https://code.visualstudio.com/)  官网下载安装，
+    打开 [下载Visual Studio Code](https://code.visualstudio.com/) 官网下载安装，
 
 ### 下载慢
 
