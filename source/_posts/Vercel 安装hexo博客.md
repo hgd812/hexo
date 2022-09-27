@@ -93,7 +93,8 @@ hexo s	#启动服务
 
 [Butterfly 安装文档（一） 快速开始 | Butterfly](https://butterfly.js.org/posts/21cfbf15/)
 
-## npm安装
+
+## Butterfly主题 npm安装
 
 ```
 npm i hexo-theme-butterfly
