@@ -11,7 +11,10 @@ cover: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aa4bb4c2-e411-4a13-bb32-deb6e6bc
 
 ### 下载慢
 
-    ![](http://tuchuang-10g.dongxiquan.cn/202209272333000.png)
+
+![img](http://tuchuang-10g.dongxiquan.cn/202209272333000.png)
+
+
 
 
 如上图，[http://vscode.cdn.azure.cn/](http://vscode.cdn.azure.cn/)   把链接替换上图的链接在浏览器打开下载
