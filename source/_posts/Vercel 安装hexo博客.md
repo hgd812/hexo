@@ -209,3 +209,10 @@ hexo version             # 查看Hexo的版本
 hexo s -g # 生成并本地预览
 hexo d -g # 生成并上传
 ```
+
+
+来源：
+
+    [使用Vercel+GitHub快速构建Hexo博客 - 知乎 ](https://zhuanlan.zhihu.com/p/358739246)
+
+    [让我们用 GitHub Pages 搭建一个 Hexo 站点 - FlyingSky&#39;s Blog ](https://blog.fsky7.com/archives/97/#cl-18)
