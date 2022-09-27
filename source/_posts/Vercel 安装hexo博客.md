@@ -2,9 +2,8 @@
 title:  让我们用 GitHub Vercel 搭建一个 Hexo 站点
 cover: https://pic1.zhimg.com/v2-41e1b825c51055f39c22b95777bc620b_1440w.jpg?source=172ae18b
 ---
-
 > https://github.com
-> 
+>
 > https://vercel.com
 
 ## 安装准备
@@ -31,8 +30,8 @@ npm -v
 运行下方命令：
 
 ```
-git config --global user.name "{{你的 GitHub username}}"
-git config --global user.email "{{你的 GitHub 注册邮箱地址}}"
+git config --global user.name 'Github name'
+git config --global user.email '123456789@qq.com'
 ```
 
 如果提示 `Are you sure you want to continue connecting (yes/no)?` 请输入 `yes` 并回车。
@@ -61,7 +60,7 @@ ssh -T git@github.com # 此处邮箱地址不用改
 ssh-keygen -t rsa -C "{{你的电子邮箱地址}}"
 ```
 
-连续回车3次，复制公钥（一般是 `C:/Users/{{你的用户名}}/.ssh/`）保存到 [SSH and GPG keys](https://github.com/settings/keys) 
+连续回车3次，复制公钥（一般是 `C:/Users/{{你的用户名}}/.ssh/`）保存到 [SSH and GPG keys](https://github.com/settings/keys)
 
 [Butterfly 安装文档（一） 快速开始 | Butterfly](https://butterfly.js.org/posts/21cfbf15/)
 
@@ -125,16 +124,11 @@ description: {{文章摘要}}
 {{文章正文}}
 ```
 
-
-
 ### 标签页
 
 1. 前往你的 Hexo 博客的根目录
-
-2. 输入`hexo new page tags`
-
-3. 你会找到`source/tags/index.md`这个文件
-
+2. 输入 `hexo new page tags`
+3. 你会找到 `source/tags/index.md`这个文件
 4. 修改这个文件：
 
    记得添加 `type: "tags"`
@@ -145,19 +139,17 @@ description: {{文章摘要}}
    date: 2018-01-05 00:00:00
    type: "tags"
    ---
-   
+
    ```
 
-   ![image.png](https://api.onedrive.com/v1.0/shares/s!AsXA7AXl0Opo2UhLxYvOo3oFo0k-/root/content) 
+   ![image.png](https://api.onedrive.com/v1.0/shares/s!AsXA7AXl0Opo2UhLxYvOo3oFo0k-/root/content)
 
    ### 分类页
 
+
    1. 前往你的 Hexo 博客的根目录
-
-   2. 输入`hexo new page categories`
-
-   3. 你会找到`source/categories/index.md`这个文件
-
+   2. 输入 `hexo new page categories`
+   3. 你会找到 `source/categories/index.md`这个文件
    4. 修改这个文件：
 
       记得添加 `type: "categories"`
@@ -169,8 +161,6 @@ description: {{文章摘要}}
       type: "categories"
       ---
       ```
-
-      
 
 ### 常用命令
 
@@ -190,4 +180,3 @@ hexo version             # 查看Hexo的版本
 hexo s -g # 生成并本地预览
 hexo d -g # 生成并上传
 ```
-
