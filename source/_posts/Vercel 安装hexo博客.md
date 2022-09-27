@@ -54,7 +54,7 @@ ssh -T git@github.com # 此处邮箱地址不用改
 
 如果提示下面即已经配置成功。
 
-![1664250037418](image/Vercel安装hexo博客/1664250037418.png)
+![](http://tuchuang-10g.dongxiquan.cn/202209271143712.png)
 
 ### SSH and GPG keys
 
