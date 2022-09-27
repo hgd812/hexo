@@ -83,7 +83,11 @@ hexo g	#生成
 hexo s	#启动服务
 ```
 
+![](http://tuchuang-10g.dongxiquan.cn/202209271213082.png)
 
+在浏览器打开 `http://localhost:4000 可以访问hexo`
+
+`Ctrl + C 可以断开浏览器打开，输入其他命令`
 
 ## 发布博客到互联网
 
