@@ -5,9 +5,17 @@ tags:
 categories:
 cover: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aa4bb4c2-e411-4a13-bb32-deb6e6bc91d3/3b83c236-a2dd-47f5-b7c2-4756ed74b3e5.png
 ---
-## 下载VS code
+## 下载
 
-1. [下载Visual Studio Code](https://code.visualstudio.com/)
+    打开[下载Visual Studio Code](https://code.visualstudio.com/)官网下载安装，
+
+### 下载慢
+
+    ![](http://tuchuang-10g.dongxiquan.cn/202209272333000.png)
+
+    如上图，[http://vscode.cdn.azure.cn/](http://vscode.cdn.azure.cn/)  把链接替换上图的链接在浏览器打开下载
+
+    
 
 ### VScode 设置
 
