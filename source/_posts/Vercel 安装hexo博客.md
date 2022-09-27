@@ -51,7 +51,7 @@ ssh -T git@github.com # 此处邮箱地址不用改
 
 看到这个信息则说明配置成功。
 
-这时，本地环境配置完成，便可以进行修改了。
+这时，本地环境配置完成。
 
 ### SSH and GPG keys
 
@@ -62,6 +62,34 @@ ssh-keygen -t rsa -C '123456789@qq.com'
 ```
 
 连续回车3次，复制公钥（一般是 `C:/Users/{{你的用户名}}/.ssh/`）保存到 [SSH and GPG keys](https://github.com/settings/keys)
+
+
+## 本地生成Hexo博客
+
+首先安装hexo 如果已安装可跳过
+
+```
+npm install -g hexo
+```
+
+初始化hexo
+
+```
+hexo init
+```
+
+```
+hexo g	#生成
+hexo s	#启动服务
+```
+
+
+
+## 发布博客到互联网
+
+
+
+
 
 [Butterfly 安装文档（一） 快速开始 | Butterfly](https://butterfly.js.org/posts/21cfbf15/)
 
