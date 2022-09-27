@@ -25,7 +25,7 @@ node -v
 npm -v
 ```
 
-## Git 设置
+### Git 设置
 
 运行下方命令：
 
@@ -33,7 +33,6 @@ npm -v
 git config --global user.name 'Github name'
 git config --global user.email '123456789@qq.com'
 ```
-
 
 ### 验证是否成功
 
@@ -55,6 +54,8 @@ ssh -T git@github.com # 此处邮箱地址不用改
 
 ### SSH and GPG keys
 
+如果要吧本地代码放到Git hub上，就需要配置SSH。
+
 打开 Git Bash 运行下面的命令（修改下面自己的Github邮箱）
 
 ```
@@ -62,7 +63,6 @@ ssh-keygen -t rsa -C '123456789@qq.com'
 ```
 
 连续回车3次，复制公钥（一般是 `C:/Users/{{你的用户名}}/.ssh/`）保存到 [SSH and GPG keys](https://github.com/settings/keys)
-
 
 ## 本地生成Hexo博客
 
@@ -87,13 +87,9 @@ hexo s	#启动服务
 
 在浏览器打开 `http://localhost:4000 可以访问hexo`
 
-`Ctrl + C 可以断开浏览器打开，输入其他命令`
+`Ctrl + C 可以断开浏览器打开，输入其他`
 
 ## 发布博客到互联网
-
-
-
-
 
 [Butterfly 安装文档（一） 快速开始 | Butterfly](https://butterfly.js.org/posts/21cfbf15/)
 
