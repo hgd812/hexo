@@ -34,15 +34,6 @@ git config --global user.name 'Github name'
 git config --global user.email '123456789@qq.com'
 ```
 
-如果提示 `Are you sure you want to continue connecting (yes/no)?` 请输入 `yes` 并回车。
-
-```
-Hi {{GitHub username}}! You've successfully authenticated, but GitHub does not provide shell access.
-```
-
-看到这个信息则说明配置成功。
-
-这时，本地环境配置完成，便可以进行修改了。
 
 ### 验证是否成功
 
@@ -52,16 +43,22 @@ Hi {{GitHub username}}! You've successfully authenticated, but GitHub does not p
 ssh -T git@github.com # 此处邮箱地址不用改
 ```
 
+如果提示 `Are you sure you want to continue connecting (yes/no)?` 请输入 `yes` 并回车。
+
 如果提示下面即已经配置成功。
 
-![](http://tuchuang-10g.dongxiquan.cn/202209271143712.png)
+![img](http://tuchuang-10g.dongxiquan.cn/202209271143712.png)
+
+看到这个信息则说明配置成功。
+
+这时，本地环境配置完成，便可以进行修改了。
 
 ### SSH and GPG keys
 
-打开 Git Bash 运行下面的命令
+打开 Git Bash 运行下面的命令（修改下面自己的Github邮箱）
 
 ```
-ssh-keygen -t rsa -C "{{你的电子邮箱地址}}"
+ssh-keygen -t rsa -C '123456789@qq.com'
 ```
 
 连续回车3次，复制公钥（一般是 `C:/Users/{{你的用户名}}/.ssh/`）保存到 [SSH and GPG keys](https://github.com/settings/keys)
