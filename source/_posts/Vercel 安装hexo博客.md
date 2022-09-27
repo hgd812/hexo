@@ -52,6 +52,10 @@ Hi {{GitHub username}}! You've successfully authenticated, but GitHub does not p
 ssh -T git@github.com # 此处邮箱地址不用改
 ```
 
+如果提示下面即已经配置成功。
+
+![1664250037418](image/Vercel安装hexo博客/1664250037418.png)
+
 ### SSH and GPG keys
 
 打开 Git Bash 运行下面的命令
