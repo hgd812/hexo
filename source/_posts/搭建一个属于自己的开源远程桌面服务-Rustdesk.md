@@ -11,7 +11,7 @@ cover: http://tuchuang-10g.dongxiquan.cn/202209290012533.png
 
 创建一下安装的目录：
 
-```
+```Bash
 mkdir -p /root/data/docker_data/rustdesk
 
 cd /root/data/docker_data/rustdesk
@@ -22,7 +22,7 @@ nano docker-compose.yml
 
 docker-compose.yml填入以下内容：
 
-```
+```yaml
 version: '3'
 
 networks:
@@ -68,25 +68,25 @@ services:
 
 查看端口是否被占用（以21115为例），输入：
 
-```
+```bash
 lsof -i:21115  #查看21115端口是否被占用，如果被占用，重新自定义一个端口
 ```
 
 如果出现：
 
-```
+```bash
 -bash: lsof: command not found
 ```
 
 运行：
 
-```
+```Bash
 apt install lsof  #安装lsof
 ```
 
 如果端口没有被占用，我们接着可以运行：
 
-```
+```bash
 cd /root/data/docker_data/rustdesk
 
 docker-compose up -d  
