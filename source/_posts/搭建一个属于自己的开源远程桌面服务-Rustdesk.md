@@ -70,21 +70,18 @@ services:
 
 ```
 lsof -i:21115  #查看21115端口是否被占用，如果被占用，重新自定义一个端口
-
 ```
 
 如果出现：
 
 ```
 -bash: lsof: command not found
-
 ```
 
 运行：
 
 ```
 apt install lsof  #安装lsof
-
 ```
 
 如果端口没有被占用，我们接着可以运行：
@@ -98,4 +95,4 @@ docker-compose up -d
 
 来源引用
 
-* [【好玩儿的Docker项目】开箱即用！TeamViewer、向日葵的替代品，20分钟自建一个开源远程桌面服务——RustDesk ](https://blog.laoda.de/archives/docker-compose-install-rustdesk)
+* [【好玩儿的Docker项目】开箱即用！TeamViewer、向日葵的替代品，20分钟自建一个开源远程桌面服务——RustDesk](https://blog.laoda.de/archives/docker-compose-install-rustdesk)
