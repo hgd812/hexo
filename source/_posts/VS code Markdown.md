@@ -27,8 +27,14 @@ cover: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aa4bb4c2-e411-4a13-bb32-deb6e6bc
 
 ### 安装插件
 
-#### `office view` 实现Markdown实时渲染
+Language Pack for Visual Studio Code 适用于 VS Code 的中文（简体）语言包
 
-打开VS code扩展，搜索 `office view` 点击 `安装`
+office view  实现Markdown实时渲染
 
-### test
+Code Translate 一款纯粹的滑词翻译软件
+
+Snazzy Light  一个好看的浅色主题
+
+    
+
+    打开VS code扩展，输入名字，点击`安装`
