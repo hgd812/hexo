@@ -5,15 +5,11 @@ tags: Docker
 categories:
 cover: http://tuchuang-10g.dongxiquan.cn/202209290012533.png
 ---
-
 > 官网：[RustDesk | 开源远程桌面软件](https://rustdesk.com/zh/)
 
 ## 搭建
 
-
-```
 创建一下安装的目录：
-```
 
 ```
 mkdir -p /root/data/docker_data/rustdesk
@@ -24,11 +20,7 @@ nano docker-compose.yml
 
 ```
 
-
-```
 docker-compose.yml填入以下内容：
-```
-
 
 ```
 version: '3'
@@ -70,14 +62,36 @@ services:
 
 ```
 
-
-```
 没问题的话，ctrl+x退出，按y保存，enter确认。
 
 打开防火墙的端口21115、21116、21117、21118、21119
+
+查看端口是否被占用（以21115为例），输入：
+
+```
+lsof -i:21115  #查看21115端口是否被占用，如果被占用，重新自定义一个端口
+
 ```
 
+如果出现：
 
+```
+-bash: lsof: command not found
+
+```
+
+运行：
+
+```
+apt install lsof  #安装lsof
+
+```
+
+如果端口没有被占用，我们接着可以运行：
+
+```
+
+```
 
 
 
