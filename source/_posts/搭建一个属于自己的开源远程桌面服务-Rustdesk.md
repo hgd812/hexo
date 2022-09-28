@@ -90,15 +90,12 @@ apt install lsof  #安装lsof
 如果端口没有被占用，我们接着可以运行：
 
 ```
+cd /root/data/docker_data/rustdesk
+
+docker-compose up -d  
 
 ```
 
-
-
-
-
-
-
 来源引用
 
-    [【好玩儿的Docker项目】开箱即用！TeamViewer、向日葵的替代品，20分钟自建一个开源远程桌面服务——RustDesk ](https://blog.laoda.de/archives/docker-compose-install-rustdesk)
+* [【好玩儿的Docker项目】开箱即用！TeamViewer、向日葵的替代品，20分钟自建一个开源远程桌面服务——RustDesk ](https://blog.laoda.de/archives/docker-compose-install-rustdesk)
