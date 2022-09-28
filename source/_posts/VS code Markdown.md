@@ -23,7 +23,7 @@ cover: https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aa4bb4c2-e411-4a13-bb32-deb6e6bc
 
 选择 `onWindowChange`
 
-1. 当编辑器窗口失去焦点时，自动保存
+1. 当编辑器窗口失去焦点时，自动保存。
 
 ### 安装插件
 
@@ -36,5 +36,3 @@ Code Translate 一款纯粹的滑词翻译软件
 Snazzy Light  一个好看的浅色主题
 
     打开VS code扩展，输入名字，点击`安装`
-
-    嗯嗯，再来一个
