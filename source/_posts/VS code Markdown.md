@@ -35,6 +35,6 @@ Code Translate 一款纯粹的滑词翻译软件
 
 Snazzy Light  一个好看的浅色主题
 
-    
-
     打开VS code扩展，输入名字，点击`安装`
+
+    嗯嗯，再来一个
