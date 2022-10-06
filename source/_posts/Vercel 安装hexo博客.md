@@ -1,8 +1,13 @@
 ---
-title:  让我们用 GitHub Vercel 搭建一个 Hexo 站点
+title:  让我们用 GitHub 和 Vercel 搭建一个 Hexo 站点
 cover: https://pic1.zhimg.com/v2-41e1b825c51055f39c22b95777bc620b_1440w.jpg?source=172ae18b
 ---
 > https://github.com
+>
+> Vercel？
+>
+> * 一款零配置的静态资源和无服务器云计算部署平台
+> * 免费版每个月限制流量100G
 >
 > https://vercel.com
 
@@ -93,8 +98,7 @@ hexo s	#启动服务
 
 [Butterfly 安装文档（一） 快速开始 | Butterfly](https://butterfly.js.org/posts/21cfbf15/)
 
-
-## Hexo安装Butterfly主题 
+## Hexo安装Butterfly主题
 
 ### npm安装
 
@@ -212,7 +216,6 @@ hexo version             # 查看Hexo的版本
 hexo s -g # 生成并本地预览
 hexo d -g # 生成并上传
 ```
-
 
 来源：
 
