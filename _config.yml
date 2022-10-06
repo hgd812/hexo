@@ -103,3 +103,12 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+
+
+# hexo-admin authentification
+admin:
+  username: admin
+  password_hash: $2a$10$dHK5woCNsl7XkrhPjsyurez2jl9MJPMJJfn65gb7BUnR3sPHcHPXq
+  secret: my super secret phrase
+  deployCommand: 'hexo-pubish.bat'

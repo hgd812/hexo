@@ -1,11 +1,10 @@
----
 title: Hello World
-cover: http://tuchuang-10g.dongxiquan.cn/202209271344027.png
+cover: 'http://tuchuang-10g.dongxiquan.cn/202209271344027.png'
+date: 2022-10-06 23:10:07
 ---
-
 ## 快速入门
 
-### 创建新帖子
+### 创建新帖子013
 
 ```bash
 $ hexo new "My New Post"
