@@ -1,3 +1,3 @@
 git add .
-git commit -m "Bat提交"
+git commit -m "Bat"
 git push
