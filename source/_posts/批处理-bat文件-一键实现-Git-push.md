@@ -2,7 +2,7 @@ title: 批处理.bat文件 一键实现 Git push
 author: dong
 date: 2022-10-06 23:56:05
 tags:
----
+-----
 
 每次push代码到仓库都需要敲那么几行代码，十分的不方便，新建一个==.bat文件==，写入如下内容，直接运行，便可实现一键push到仓库。
 运行时直接将git commit -m 后的内容输入到Message提示后边即可。
@@ -21,4 +21,6 @@ git push
 
 原文来源
 
-	* [批处理.bat文件 一键实现 Git push ](https://blog.csdn.net/qq_45613277/article/details/107067421)
+    [批处理.bat文件 一键实现 Git push_追涨杀跌一棵韭的博客-CSDN博客](https://blog.csdn.net/qq_45613277/article/details/107067421)
+
+    *[批处理.bat文件 一键实现 Git push ](https://blog.csdn.net/qq_45613277/article/details/107067421)
